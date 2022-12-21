@@ -1,0 +1,119 @@
+body
+     {
+
+    background-color: white;
+}
+
+.header {
+    border: 1px solid green;
+}
+
+.box {
+    padding: 20
+    px;
+    border: 1px solid blue;
+
+}
+
+.red {
+    color: red;
+}
+
+.paragraph {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#top-header {
+    border: 2px solid violet;
+}
+
+[class^='box'] {
+    border: 1px solid brown;
+
+}
+/* 
+
+.parent.header {
+    border: 2px solid black;
+}
+
+.parent.div {
+    border: 2px solid black;
+}
+
+
+.parent>div {
+    border: 1px solid red;
+}
+
+*+* {
+    color: gold;
+    margin-top: 20px;
+} */
+
+div:nth-child(3) {
+    border: 4px solid green
+}
+
+[class^='child']:hover {
+    background-color: pink;
+    cursor: pointer;
+
+}
+
+button:active {
+    color: yellow;
+}
+
+a:active {
+    color: red;
+}
+a:visited {
+    color: brown;
+}
+
+button:focus{
+    border: 2px solid gold
+}
+
+input:focus, a:focus {
+    outline: 2px solid pink;
+}
+
+.container > div {
+    width: 200px;
+    height: 200px;
+    border: 20px solid green;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 5px 20px 5px 5px gray;
+
+}
+
+
+
+.container > .border-box {
+    box-sizing: border-box;
+    background-color: pink;
+    position: relative;
+    top: 10px;
+
+
+}
+
+.container > .content-box {
+    box-sizing: content-box ;
+    background-color: lightblue;
+    position:fixed;
+    display:inline ;
+    top: 0px;
+    left: 100px;
+}
+
+/* .border-box{
+    float: right;
+}
+
+.content-box{
+    clear: right;
+} */
+
